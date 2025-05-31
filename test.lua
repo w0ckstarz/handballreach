@@ -5,7 +5,7 @@ local player = Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local hrp = character:WaitForChild("HumanoidRootPart")
 
-local reachDistance = 25
+local reachDistance = 60
 
 RunService.RenderStepped:Connect(function()
     local ball = workspace:FindFirstChild("Ball") 
